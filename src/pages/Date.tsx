@@ -1,19 +1,20 @@
 import { useState } from "react";
 import CardComponent from "../components/Card/Card";
 import Layout from "../layouts/layout";
-import food1 from "../assets/img/food/food1.jpg";
-import food2 from "../assets/img/food/food2.jpg";
-import food3 from "../assets/img/food/food3.jpg";
-import food4 from "../assets/img/food/food4.jpg";
-import food5 from "../assets/img/food/food5.jpg";
-import food6 from "../assets/img/food/food6.jpg";
 
-import mov1 from "../assets/img/movies/img1.jpg";
-import mov2 from "../assets/img/movies/img2.jpg";
-import mov3 from "../assets/img/movies/img3.jpg";
-import mov4 from "../assets/img/movies/img4.jpg";
-import mov5 from "../assets/img/movies/img5.jpg";
-import mov6 from "../assets/img/movies/img6.jpg";
+import tea1 from "../assets/img/food/tea1.jpg";
+import tea2 from "../assets/img/food/tea2.jpg";
+import tea3 from "../assets/img/food/tea3.jpg";
+import tea4 from "../assets/img/food/tea4.jpg";
+import tea5 from "../assets/img/food/tea5.jpg";
+import tea6 from "../assets/img/food/tea6.jpg";
+
+import bos1 from "../assets/img/movies/bos1.jpg";
+import bos2 from "../assets/img/movies/bos2.jpg";
+import bos3 from "../assets/img/movies/bos3.jpg";
+import bos4 from "../assets/img/movies/bos4.jpg";
+import bos5 from "../assets/img/movies/bos5.jpg";
+import bos6 from "../assets/img/movies/bos6.jpg";
 
 import img1 from "../assets/img/cat-jump.gif";
 import HeartButton from "../components/HeartButton/HeartButton";
@@ -41,9 +42,9 @@ const Date = () => {
   const getTitle = () => {
     switch (selectedCategory) {
       case "food":
-        return "What do you want to eat ?";
+        return "Choose Coffee Shop around this town";
       case "movie":
-        return "What movie do you want to watch ?";
+        return "Choose a flavor you like";
       default:
     }
   };
@@ -63,55 +64,55 @@ const Date = () => {
 
   const foodData = [
     {
-      title: "Pancake",
-      image: food1,
+      title: "Boss Coffee",
+      image: tea1,
     },
     {
-      title: "Fried Rice",
-      image: food2,
+      title: "Mudnest Cafe",
+      image: tea2,
     },
     {
-      title: "Salmon",
-      image: food3,
+      title: "Big Brew",
+      image: tea3,
     },
     {
-      title: "Steak",
-      image: food4,
+      title: "I love Milk Tea",
+      image: tea4,
     },
     {
-      title: "Burger and Fries",
-      image: food5,
+      title: "Yellow Tree",
+      image: tea5,
     },
     {
-      title: "Pizza",
-      image: food6,
+      title: "Potato Corner",
+      image: tea6,
     },
   ];
 
   const movieData = [
     {
-      title: "Beetlejuice Beetlejuice",
-      image: mov1,
+      title: "Mocha Froccino",
+      image: bos1,
     },
     {
-      title: "Hello Love again",
-      image: mov2,
+      title: "Cold White Brew",
+      image: bos2,
     },
     {
-      title: "Hellboy: The Crooked Man",
-      image: mov3,
+      title: "Iced Creamy Latte",
+      image: bos3,
     },
     {
-      title: "Never Let Go",
-      image: mov4,
+      title: "Cookies n' Cream",
+      image: bos4,
     },
     {
-      title: "Transformers One",
-      image: mov5,
+      title: "Caramel Macchiato",
+      image: bos5,
     },
     {
-      title: "Deadpool & Wolverine",
-      image: mov6,
+      title: "Matcha Green Tea",
+      image: bos6,
     },
   ];
 
